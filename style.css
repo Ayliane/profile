@@ -1,4 +1,5 @@
 /* Here goes your CSS */
+/* Here goes your CSS */
 body {
   background-color: #FFEEDB;
   font-family: 'Open Sans', sans-serif;
@@ -65,7 +66,7 @@ table {
 }
 
 .container {
-  width: 500px;
+  width: 90%;
   margin: 30px auto;
 }
 
@@ -137,4 +138,38 @@ td p {
 
 .new-section {
   color: #B80C09;
+}
+
+#sidebar {
+  background-color: #3F3F37;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#page-content {
+  margin-left: 120px;
 }
