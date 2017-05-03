@@ -1,0 +1,136 @@
+/* Here goes your CSS */
+body {
+  background-color: #FFEEDB;
+  font-family: 'Open Sans', sans-serif;
+  color: #3F3F37;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #355834;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: start;
+}
+
+h2, h3 {
+  color: #3F3F37;
+  font-weight: 300;
+}
+
+a {
+  color: #989788;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #355834;
+}
+
+div {
+  display: block;
+}
+
+table {
+  white-space: normal;
+  font-style: normal;
+  color: #3F3F37;
+  text-align: start;
+  font-variant: normal normal;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+#games img {
+  width: 120px;
+}
+
+#profile_picture {
+  height: 100px;
+  width: 100px;
+  border: 3px solid #cccccc;
+}
+
+.img-circle {
+  border-radius: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-green {
+  background: #355834;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background: #2EAD29;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline li i {
+  font-size: 25px;
+}
+
+#games {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#games td {
+  padding: 10px;
+}
+
+td p {
+  text-align: justify;
+}
